@@ -2,8 +2,12 @@ body{
     background-color: #D3D3D3;
     
 }
+.header-container{
+    background:#1f2937
+}
 .header{
     display:flex;
+    color:white
 
 }
 .logo{
@@ -21,6 +25,7 @@ ol{
     align-items:center;
     margin:100px;
     margin-left:200px;
+    gap: 200px
 
 }
 .hero-content{
@@ -28,12 +33,20 @@ ol{
     flex-basis: 350px;
     margin-left: 50px;
     padding: 12px;
+    color:#f9faf8;
     
 
+}
+.image-container{
+    background:grey;
+    width:300px;
+    height:150px;
 }
 .hero-image{
     display:flex;
     padding:24px;
+    justify-content:center;
+    
 
 }
 
@@ -126,12 +139,14 @@ ol{
 
 .footer-container{
     background:black;
+    
 
 }
 .footer{
     color:white;
     text-align:center;
     padding:12px;
+    
     
 
     
